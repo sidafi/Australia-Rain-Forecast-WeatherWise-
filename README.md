@@ -34,18 +34,6 @@ Dataset telah melalui proses **data cleaning dan Exploratory Data Analysis (EDA)
 * Joblib
 * Streamlit
 
-## Project Structure
-
-```text
-projek/
-├── app.py
-├── model_raintoday.pkl
-├── model_raintomorrow.pkl
-├── weatherAUS_ready(1).csv
-├── requirements.txt
-└── assets/
-```
-
 ## How to Run
 
 Install dependencies:
