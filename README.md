@@ -4,7 +4,6 @@ Project pembelajaran **Machine Learning** untuk memprediksi kemungkinan hujan di
 
 Aplikasi dibuat menggunakan **Python + Streamlit** dan menggunakan dua model machine learning yang telah dilatih:
 
-* `model_raintoday.pkl` → prediksi hujan hari ini
 * `model_raintomorrow.pkl` → prediksi hujan besok
 
 ## Features
