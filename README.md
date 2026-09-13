@@ -1,4 +1,4 @@
-# Australia Rainfall Prediction 🌦️🇦🇺
+# Australia Rainfall Prediction 🌦️🇦🇺 (Project Overview)
 
 A **Machine Learning learning project** to predict the possibility of rainfall in Australia using the **WeatherAUS dataset**.
 
