@@ -44,6 +44,20 @@ The dataset contains Australian weather observations with `RainTomorrow` as the 
 
 ## Installation
 
+The trained model is stored with Git LFS because its file size is larger than the normal GitHub file limit. Install Git LFS before cloning or downloading the project:
+
+```bash
+git lfs install
+```
+
+After cloning the repository, download the actual model file from Git LFS:
+
+```bash
+git lfs pull
+```
+
+The file `model_cuaca_rf.pkl` should be approximately 388 MB. If it is only a few bytes or contains Git LFS text, run `git lfs pull` again from the repository root.
+
 From the `Projek` directory, create or activate a Python environment and install the dependencies:
 
 ```bash
@@ -53,6 +67,7 @@ pip install -r requirements.txt
 ## Run Locally
 
 ```bash
+cd Projek
 streamlit run app.py
 ```
 
